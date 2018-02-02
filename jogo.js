@@ -52,7 +52,7 @@ function contagem_tempo(segundos){
 }
 
 function game_over(){
-	alert('Fim de jogo, você não conseguiu estourar todos os balões a tempo');
+	alert('Fim de jogo, você não conseguiu matar todos os Temers a tempo');
 }
 
 function cria_baloes(qtde_baloes){
@@ -100,7 +100,7 @@ function pontuacao(acao){
 
 function situacao_jogo(baloes_inteiros){
 	if(baloes_inteiros == 0){
-		alert('Parabéns, você conseguiu estourar todos os balões a tempo');
+		alert('Parabéns, você conseguiu matar todos os Temers a tempo');
 		parar_jogo();
 	}
 }
